@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="深市B股股票列表">
+<meta name="keywords" content="深市B股,股票列表">
+<title>深市B股_股票列表_财经_凤凰网</title>
+<link href="http://finance.ifeng.com/css/basic.css" rel="stylesheet" type="text/css" />
+<link href="http://finance.ifeng.com/css/style_03.css" rel="stylesheet" type="text/css" />
+<style>
+.block ul{float:right; width:550px;padding-right:20px; color:#333;}
+</style>
+</head>
+<body>
+
+
+<!--i_ifeng_index_region_js 2012.09.03 17:02:01-->
+
+
+<!--0,0,null,fixture-->
+<script language="javascript" type="text/javascript">
+var regionOrientProv = '';
+var regionOrientCity = '';
+var regionOrientWeatherCity = '';
+var regionOrientVersion = '';
+
+//start
+function getRegionCookie(N) {
+	var c = document.cookie.split("; ");
+	for(var i = 0; i < c.length; i ++) {
+		var d = c[i].split("=");
+		if(d[0] == N){
+			return unescape(d[1]);
+		}
+	}
+	return "";
+}
+
+//Q is 1 min.
+function setRegionCookie(N, V, Q) {
+	var L = new Date();
+	var z = new Date(L.getTime() + Q * 60000);
+	var domain = '.ifeng.com';
+	document.cookie = N + "=" + escape(V) + ";path=/;domain=" + domain + ";expires=" + z.toGMTString() + ";"
+};
+
+//callback function----1440 1day; 43200 30days
+function setRegionCookies(locationStr){
+	var regionArray = locationStr.split("[");
+	var regionStr = regionArray[0].slice(0,-1);
+	var regionTempArray = regionStr.split("_");
+	var regionProv = regionTempArray[0];
+	var regionCity = regionTempArray[1];
+	var regionWeatherCity = regionArray[1].slice(0,-1);
+
+	setRegionCookie('prov', regionProv, 1440);
+	setRegionCookie('city', regionCity, 1440);
+	setRegionCookie('weather_city', regionWeatherCity, 1440);
+	setRegionCookie('region_ver', '1', 1440);
+}
+
+//get the region cookie
+regionOrientProv = getRegionCookie('prov');
+regionOrientCity = getRegionCookie('city');
+regionOrientWeatherCity = getRegionCookie('weather_city');
+regionOrientVersion = getRegionCookie('region_ver');
+
+//If there isn't any region cookie value, get the values and then set them in cookie
+if (typeof(regionOrientProv) == 'undefined' || typeof(regionOrientCity) == 'undefined' || typeof(regionOrientWeatherCity) == 'undefined'||
+	regionOrientProv == 'undefined' || regionOrientProv == '' || regionOrientCity == '' || regionOrientCity == 'undefined' ||
+	regionOrientWeatherCity == '' || regionOrientWeatherCity == 'undefined' ||
+	typeof(regionOrientVersion) == 'undefined' || regionOrientVersion == 'undefined' || regionOrientVersion == '' || regionOrientVersion != '1') {
+	document.write('<scr'+'ipt type="text/javascript" src="http://region.ifeng.com/get?format=js&callback=setRegionCookies"><'+'/script>');
+}
+</script>
+
+
+<!--/i_ifeng_index_region_js--><style type="text/css">
+.cWhite,.cWhite a:link,.cWhite a:visited,.cWhite a:hover,.cWhite a:active{color:#fff;}
+.clear{clear:both;height:0;line-height:0;font-size:0;overflow:hidden;}
+.h_infoNav{width:100%;margin:0 auto;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom;height:32px;position:relative;z-index:800;}
+.h_masthead{height:32px;width:990px;margin:0 auto;padding:0 0 0 10px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_10.gif) repeat-x bottom; position:relative;}
+.h_masthead p{float:left;padding-top:10px;line-height:normal}
+.h_infoNav .h_s01{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_12.gif) no-repeat left center;padding:0 15px;_padding:2px 15px 0}
+.h_infoNav .h_s02{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_13.gif) no-repeat left center;padding:0 23px 0 12px;_padding:2px 23px 0 12px}
+.h_infoNav .h_set{float:right; padding:10px 10px 0 0;}
+.h_set .cGray a{ padding-left:3px;}
+.h_set .cRed{color:#666; padding-left:10px;}
+.cGray2,.cGray2 a:link,.cGray2 a:visited,.cGray2 a:hover,.cGray2 a:active{color:#999;}
+.h_indexLogin{position:absolute; right:0; top:23px;background:url(http://res.img.ifeng.com/tres/images/channel_login.gif) no-repeat left top; width:341px; height:137px; z-index:100;}
+.h_indexLogin .h_close{float:left; width:332px; height:15px; padding:16px 9px 0 0;}
+.h_indexLogin .h_close a{float:right; background:url(http://res.img.ifeng.com/tres/images/icon_close.gif) no-repeat 0 2px; padding-left:9px;}
+.h_indexLogin ul{ float:left; width:161px; padding:7px 0 0 55px;}
+.h_indexLogin li{ height:30px;}
+.h_indexLogin label{ vertical-align:middle;}
+.h_indexLogin .h_text{width:124px;height:14px;font-size:12px;vertical-align:middle; padding:2px 0 0 2px;}
+.h_indexLogin .h_btn04{float:right;width:39px;height:19px;background:url(http://res.img.ifeng.com/tres/images/loginBtn.gif) repeat-x top;border:none;cursor:pointer;margin-right:1px; display:inline;}
+.h_indexReg{float:left; width:60px;padding:21px 0 0 30px; line-height:20px; color:#666;}
+.h_indexReg a{text-decoration:underline;}
+.h_indexReg a,.h_indexReg a:link,.h_indexReg a:visited,.h_indexReg a:hover,.h_indexReg a:active{color:#004276;}
+.h_mainNav{width:980px;height:29px;margin:0 auto;color:#ddd;padding:8px 10px 0; font-family:宋体;}
+.h_mainNav span{float:right; height:13px;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_11.gif) no-repeat 0 0;padding:1px 0 0 19px;}
+.h_mainNav ul{float:left;width:910px; padding-top:2px;}
+.h_mainNav li{float:left; background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0427/line.gif) no-repeat left center; padding:0 6px 0 9px;}
+.h_mainNav .cRed, .cRed a:link, .cRed a:visited, .cRed a:hover, .cRed a:active {color: #BA2636;}
+  </style>
+  <script src="http://img.ifeng.com/tres/html/120213-iNice0.7.js" type="text/javascript"></script>
+  <div class="h_infoNav">
+      <div class="h_masthead">
+        <p><span class="h_s01 cRed"><a href="http://www.ifeng.com/" target="_blank">凤凰网首页</a></span>
+        <span class="h_s02 cRed"><a href="http://3g.ifeng.com/3g/finance.html" target="_blank">手机凤凰网</a></span>
+        <span class="cGray" id="h_getDay"> </span></p>
+        <div class="h_set">
+          <span class="cGray"><a href="javascript:setHomepage('http://finance.ifeng.com/')" id="h_sethomea">设为首页</a> <a href="javascript:AddFavorite('http://finance.ifeng.com/','凤凰网财经');">收藏本站</a> <div id="h_login" style="display:inline;"><a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">注册</a> <a style="cursor:pointer;" onclick="hideloginbox();">登录</a></div></span><div id="h_welcome" style="display:inline;"></div>
+         </div>        
+          <div class="h_indexLogin" id="h_loginbox" style="display:none;">
+            <div class="h_close cGray2"><a onclick="closeloginbox();" style="cursor:pointer;">关闭</a></div>
+            <div class="clear"></div>
+              <form action="http://my.ifeng.com/?_c=index&_a=login" method="post" id="h_form1" name="l_f">
+                <ul>
+                <li><label>账号 </label><input name="uname" type="text" class="h_text" id="h_uname" onfocus="javascript:if (value=='') {this.className='h_text'};" onblur="javascript:if (value=='text') {this.className='h_text'};" /></li>
+                <li><label>密码 </label><input name="pass" type="password" class="h_text" id="h_pass" onfocus="javascript:if (value=='') {this.className='h_text'};" onblur="javascript:if (value=='text') {this.className='h_text'};" /></li>
+                <li>
+                <input name="Submit" type="button" class="h_btn04" value="" onclick="javascript:CheckInfo();"/>
+                </li>
+                </ul>
+                <div class="h_indexReg">没有账号？<br />
+                <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">立即注册</a></div>
+                <input type="hidden" name="backurl" id="h_backurl" value="" />
+              </form>
+          </div>
+      </div>
+<script type="text/javascript" src="http://h0.ifengimg.com/js/cn_date.js"></script>
+<script type="text/javascript">
+document.getElementById("h_getDay").innerHTML=getCnDateTimeStr();
+var bkurl=window.location.href
+document.getElementById("h_backurl").value=bkurl;
+function AddFavorite(sURL, sTitle){
+  try{
+    window.external.addFavorite(sURL, sTitle);
+  }catch (e){
+    try{
+      window.sidebar.addPanel(sTitle, sURL, "");
+    }catch (e){
+      alert("加入收藏失败，请使用Ctrl+D进行添加");
+    }
+  }
+}
+function setHomepage(pageURL) {
+  if (document.all) {
+    document.body.style.behavior='url(#default#homepage)';
+    document.body.setHomePage(pageURL);
+  }else {
+    try { //IE
+      netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+    } catch (e) {
+      try{ //Firefox
+        var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+      prefs.setCharPref('browser.startup.homepage',pageURL);         
+      } catch(e) {
+        alert( "您的浏览器不支持该操作，请使用浏览器菜单手动设置." );
+      }
+    }
+  }
+}
+function closeloginbox(){
+  document.getElementById('h_loginbox').style.display='none';
+}
+function hideloginbox() {
+  (document.getElementById("h_loginbox").style.display=="none")?(document.getElementById("h_loginbox").style.display=""):(document.getElementById("h_loginbox").style.display="none");
+}
+function CheckInfo(){
+  var cookieEnabled=(navigator.cookieEnabled)?true:false;
+  if(!cookieEnabled){	alert('请开启浏览器COOKIE功能！');	return false;	}
+  if(document.getElementById('h_uname').value==''||document.getElementById('h_uname').value==null){alert('请输入用户名');	document.getElementById('h_uname').focus();	return false;}
+  if(document.getElementById('h_pass').value==''||document.getElementById('h_pass').value==null){	alert('请输入密码');document.getElementById('h_pass').focus();return false;	}
+  document.getElementById('h_form1').submit();
+  return false;
+}
+function cb_userdetail() {
+  var msg='<span class="cRed"><a href="http://my.ifeng.com/?_c=index&_a=my" target="_blank">'+sso_username+'</a> 欢迎你</span><span class="cGray"><a href="http://my.ifeng.com/logout?backurl='+escape(bkurl)+'" id="btnlogout">退出</a></span>';
+  document.getElementById("h_welcome").innerHTML=msg;
+  document.getElementById("h_login").style.display="none";
+  document.getElementById("h_welcome").style.display="inline";
+}
+function getCookie_comment(name){
+  var arr = document.cookie.match(new RegExp('(^| )'+name+'=([^;]*)(;|$)'));
+  if(arr!=null) return arr[2];
+  return null;
+}
+var sid = getCookie_comment("sid");
+if(sid&&sid.length>32) {
+  sso_username=decodeURIComponent(sid.substr(32));
+  cb_userdetail();
+}
+</script>
+    </div> 
+  <div class="h_mainNav cDGray">
+      <span><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></span>
+      <ul>
+        <li style="background:none; padding-left:0;"><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+        <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+        <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+        <li><a href="http://news.ifeng.com/sports/" target="_blank">体育</a></li>
+        <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+        <li><a href="http://fashion.ifeng.com/health/" target="_blank">健康</a></li>
+        <li><a href="http://fashion.ifeng.com/baby/" target="_blank">亲子</a></li>
+        <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+        <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+        <li><a href="http://home.ifeng.com/" target="_blank">家居</a></li>
+        <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+        <li><a href="http://fashion.ifeng.com/travel/" target="_blank">旅游</a></li>
+        <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+        <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+        <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li>
+        <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+        <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+        <li><a href="http://v.ifeng.com/" target="_blank">视频</a></li>
+        <li><a href="http://blog.ifeng.com/" target="_blank">博客</a></li>
+        <li><a href="http://bbs.ifeng.com/" target="_blank">论坛</a></li>
+        <li><a href="http://gongyi.ifeng.com/" target="_blank">公益</a></li>
+        <li><a href="http://fo.ifeng.com/" target="_blank">佛教</a></li>
+        <li><a href="http://astro.ifeng.com/" target="_blank">星座</a></li>
+      </ul>
+  </div>
+<style type="text/css"> 
+.h_mainNav{width:980px;height:29px;margin:0 auto;color:#ddd;padding:8px 10px 0; font-family:宋体;background:#fff;}
+.h_searchDiv{width:980px;margin:0 auto;height:44px;padding:15px 10px 0;background:#fff;}
+.h_theLogo{float:left;font-size:12px}
+.h_theLogo img{float:left;}
+#h_f_logo{width:130px;height:36px;}
+#h_s_logo{width:52px;height:26px;}
+.h_theLogo span{float:left; height:31px; margin-left:10px; display:inline; border-left:1px solid #ccc; padding:3px 0 0 10px; overflow:hidden;}
+</style>
+<div class="h_searchDiv">
+    <div class="h_theLogo"> 
+        <a href="http://finance.ifeng.com/" target="_blank"><img src="http://y1.ifengimg.com/2011/11/17/10442232.gif" title="凤凰网财经" /></a>
+    </div>  
+    <style type="text/css">
+.navFind{float:right;width:323px;padding:6px 0 0}
+.navFind span{float:left}
+.navFind .text{width:182px;height:16px;padding:2px 0 0 5px;margin-top:1px !important;*margin-top:0px !important;margin-top:0;margin-right:7px;background:#fff;border:1px solid #819bb4;color:#646464;font-size:12px}
+.navFind .sel{width:55px;height:16px;margin:1px 9px 0 0;padding:2px 0 0 11px;border:1px solid #819bb4;border-right:none;background:#fff url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_04.gif) no-repeat right center;font-size:12px;color:#646464;cursor:pointer}
+.navFind .button{width:51px;height:20px;padding:1px 0 0 2px;margin:1px 0 0;border:none;background:url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/navFind.gif) no-repeat 0 0;color:#000;font-weight:bold;cursor:pointer}
+#searchFormOption{position:relative;float:left;z-index:80}
+#loginFldselectop{position:absolute;border:1px solid #DFDFDF;top:20px;left:0px;width:48px;background:#fff;z-index:99}
+#loginFldselectop li{line-height:20px;height:20px}
+#loginFldselectop li a{line-height:20px;height:20px;text-decoration:none;color:#000000;padding-left:11px}
+	.stockList{position:absolute;top:28px;left:0;width:300px; border:1px solid #195184; background:#fff; z-index:999;}
+	.stockList a,.stockList a:visited{color:#0A5EA6;}
+	.stockList .tab td{border-bottom:1px solid #ECECEC; height:21px!important;*height:20px!important;height:20px; padding-left:12px; text-align:left; color:#333;}
+	.stockList .tab tr.current{background:#194E80;}
+	.stockList .tab tr.current td{color:#fff;background:#194E80;}
+	.stockList .tab tr.current td a{color:#fff;}
+	.stockList .red{color:#f00;}
+</style>
+ <script type="text/javascript" src="http://m0.ifengimg.com/keywords.js"></script>
+  <div class="navFind" style="position: relative; z-index: 80;">
+    <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action" target="_blank">
+      <span>
+        <input id="keyword" type="text" name="q" value="" class="text" autocomplete="off" onclick="header_search.clean_default(this.value)" onblur="header_search.set_default(this.value)" />
+        <input id="param1" type="hidden" name="c" value="1" />
+        <input id="param2" type="hidden" name="" value="" disabled="disabled" />
+      </span>
+      <div id="searchFormOption">
+        <span id="loginUl" onclick="header_search.show_option()" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()" style="cursor: default;" class="sel">站内</span>
+        <ul id="loginFldselectop" style="display: none;" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()">
+          <li id="ra1" style="cursor: default;" onmouseover="this.style.background='#e7e7e7'" onmouseout="this.style.background='white'"><a onclick="header_search.select_option('站内')" style="width: 100%; display: block; height: 17px;">站内</a></li>
+          <li id="ra2" style="cursor: default;" onmouseover="this.style.background='#e7e7e7'" onmouseout="this.style.background='white'"><a onclick="header_search.select_option('站外')" style="width: 100%; display: block; height: 17px;">站外</a></li>
+          <li id="ra3" style="cursor: default;" onmouseover="this.style.background='#e7e7e7'" onmouseout="this.style.background='white'"><a onclick="header_search.select_option('证券')" style="width: 100%; display: block; height: 17px;">证券</a></li>
+          <li id="ra4" style="cursor: default;" onmouseover="this.style.background='#e7e7e7'" onmouseout="this.style.background='white'"><a onclick="header_search.select_option('汽车')" style="width: 100%; display: block; height: 17px;">汽车</a></li>
+          <li id="ra0" style="cursor: default;" onmouseover="this.style.background='#e7e7e7'" onmouseout="this.style.background='white'"><a onclick="header_search.select_option('视频')" style="width: 100%; display: block; height: 17px;">视频</a></li>
+        </ul>
+      </div>
+      <span><input type="submit" value="搜索" class="button" style="cursor: pointer;" /></span>
+      <div class="clear"></div>
+      <div id="suggest_list" class="stockList" style="display: none;" onfocus="finance_suggest.display('inline')" onblur="" onmouseover="finance_suggest.display('inline')" onmouseout="finance_suggest.display('none')"></div>
+      <div class="clear"></div>
+    </form>
+  </div>
+  <script type="text/javascript" src="http://finance.ifeng.com/js/nav_search.js"></script></div>
+
+<!--发布内容-->
+<style>
+  .col{width:1000px;margin:0 auto;}
+  .nav_1{background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/bg_nav.gif) repeat-x; height:37px; width:1000px; margin:0 auto; padding-top:5px;}
+  .nav_1 a{margin-right:12px;color:#2b2b2b; line-height:32px;}
+  .nav_1 a:hover{color:#ba2636;}
+  .nav_1 .a01{font: bold 14px/36px simsun; margin:0 13px 0 17px; color:#004276; padding-bottom:12px;}
+  .nav_1 .current{color:#999; background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/bg_nav02.gif) no-repeat center -16px;_background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/bg_nav02.gif) no-repeat center -15px;}
+  .nav_1 .a01:hover{color:#ba2636; text-decoration:none;}
+  .nav02 p{line-height:14px; padding-left:14px; height:25px; background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/bg_nav.gif) repeat-x 0 -43px; padding-top:8px;}
+  .nav02 a{margin-right:12px; padding:0 0 9px;color:#004276; display:block; float:left;}
+  .nav02 .current{color:#999; background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/arrow.gif) no-repeat center -9px;_background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/arrow.gif) no-repeat center -9px;font-weight:bold;}
+  .nav02 a.current:hover{color:#999;}
+  .nav03 p{line-height:30px;height:30px; padding-left:14px; background:url(http://y3.ifengimg.com/2f86f1d4ae63c9a4/2012/1017/bg_nav.gif) repeat-x 0 -74px;}
+  .nav03 a{margin-right:12px;line-height:30px;color:#004276;}
+  .nav03 a.current{color:#ba2636;}
+  .nav02 a:hover,.nav03 a:hover{color:#ba2636;}
+</style>
+<div class="nav_1">
+ 	<p><a href="http://finance.ifeng.com/" target="_self" class="a01 ">财经</a><a href="http://finance.ifeng.com/business/" target="_blank">商业</a><a href="http://finance.ifeng.com/news/ceoonline/" target="_blank">总裁在线</a><a href="http://finance.ifeng.com/news/special/caizhidao/" target="_blank">财知道</a><a href="http://finance.ifeng.com/stock/" target="_self" class="a01 ">股票</a><a href="http://chaogu.ifeng.com/" target="_blank">炒股大赛</a><a href="http://tjzj.finance.ifeng.com/" target="_blank">图解牛股</a><a href="http://finance.ifeng.com/stock/special/lhbdp/" target="_blank">黑马追踪</a><a href="http://finance.ifeng.com/stock/gstzgc/" target="_blank">A股观察</a><a href="http://finance.ifeng.com/hk/" target="_blank">港股</a><a href="http://finance.ifeng.com/money/" target="_self" class="a01 ">理财</a><a href="http://finance.ifeng.com/fund/" target="_self">基金</a><a href="http://finance.ifeng.com/bank/" target="_self">银行</a><a href="http://finance.ifeng.com/gold/" target="_self">黄金</a><a href="http://finance.ifeng.com/insurance/" target="_self">保险</a><a href="http://finance.ifeng.com/app/hq/" target="_self" class="a01 current">产品</a><a href="http://app.finance.ifeng.com/hq/trade/zijin_list.php" target="_self">资金流向</a><a href="http://finance.ifeng.com/app/hq/" target="_self">行情中心</a><a href="http://app.finance.ifeng.com/custom/index.php" target="_blank">自选股</a></p>
+</div>
+<div class="col nav02">
+ 	<p><a  href="http://app.finance.ifeng.com/hq/trade/zijin_list.php" target="_self">资金流向</a><a  href="http://chaogu.ifeng.com/" target="_blank">炒股大赛</a><a  href="http://app.finance.ifeng.com/data/" target="_self">数据中心</a><a class="current" href="http://finance.ifeng.com/app/hq/" target="_self">行情中心</a><a  href="http://app.finance.ifeng.com/data/stock/zdy_data.php?type=znzd" target="_self">诊股</a><a  href="http://app.finance.ifeng.com/custom/index.php" target="_blank">自选股</a></p>
+</div>
+<div class="col nav03">
+ 	<p><a class="current" href="http://app.finance.ifeng.com/list/stock.php?t=ha" target="_self">股票排行</a><a  href="http://app.finance.ifeng.com/hq/all_stock_bill.php" target="_self">大单追踪</a><a  href="http://app.finance.ifeng.com/hq/stock_scan.php" target="_self">市场雷达</a><a  href="http://app.finance.ifeng.com/hq/global_ind/index.php" target="_self">全球股指</a><a  href="http://app.finance.ifeng.com/list/usstock.php?first=all" target="_self">美股行情</a><a  href="http://app.finance.ifeng.com/list/gold.php" target="_blank">贵金属行情</a><a  href="http://app.finance.ifeng.com/list/forex.php" target="_self">外汇行情</a><a  href="http://app.finance.ifeng.com/hq/rmb/list.php" target="_blank">人民币</a><a  href="http://finance.ifeng.com/fund/app/fundhtml/indexlist/open_netvalue_gpx_jzzzl_desc.html" target="_self">基金行情</a></p>
+</div>
+<div class="blank3"></div>
+<div class="main">
+	<div class="content">
+	
+	<div class="block">
+		<h1>深市B股</h1>
+		<ul>
+		<li><a href="?t=ha">沪市A股</a></li>
+		<li><a href="?t=sa">深市A股</a></li>
+		<li><a href="?t=hb">沪市B股</a></li>
+		<li><a href="?t=sb">深市B股</a></li>
+		<li><a href="?t=zxb">中小企业板</a></li>
+		<li><a href="?t=cyb">创业板</a></li>
+		<li><a href="?t=zs">指数</a></li>
+		<li><a href="?t=jj">封基</a></li>
+		<li><a href="?t=etf">ETF</a></li>
+		<li><a href="?t=zq">债券</a></li>
+		</ul>
+	</div>
+	<div class="block02">
+		
+        <div class="tab01">
+ <table width="914" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <th><a href="?t=sb&f=symbol&o=asc&p=1">代码</a></th>
+    <th><a href="?t=sb&f=name&o=asc&p=1">名称</a></th>
+    <th><a href="?t=sb&f=last&o=asc&p=1">最新价</a></th>
+    <th><a href="?t=sb&f=chg_pct&o=asc&p=1">涨跌幅&darr;</a></th>
+    <th><a href="?t=sb&f=chg&o=asc&p=1">涨跌额</a></th>
+    <th><a href="?t=sb&f=volume&o=asc&p=1">成交量</a></th>
+    <th><a href="?t=sb&f=amount&o=asc&p=1">成交额</a></th>
+    <th><a href="?t=sb&f=open&o=asc&p=1">今开盘</a></th>
+    <th><a href="?t=sb&f=hst_close&o=asc&p=1">昨收盘</a></th>
+    <th><a href="?t=sb&f=low&o=asc&p=1">最低价</a></th>
+    <th><a href="?t=sb&f=high&o=asc&p=1">最高价</a></th>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200017/index.shtml" target="_blank">200017</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200017/index.shtml" target="_blank">深中华B</a></td>
+    <td><span class="Ared">2.050</span></td>
+    <td><span class="Ared">1.990%</span></td>
+    <td><span class="Ared">0.04</span></td>
+    <td>4364手</td>
+    <td>89万</td>
+    <td><span class="Ared">2.04</span></td>
+    <td>2.01</td>
+    <td><span class="Agreen">1.99</span></td>
+    <td><span class="Ared">2.06</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200037/index.shtml" target="_blank">200037</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200037/index.shtml" target="_blank">深南电B</a></td>
+    <td><span class="Ared">3.920</span></td>
+    <td><span class="Ared">1.292%</span></td>
+    <td><span class="Ared">0.05</span></td>
+    <td>806手</td>
+    <td>32万</td>
+    <td><span class="Agreen">3.83</span></td>
+    <td>3.87</td>
+    <td><span class="Agreen">3.83</span></td>
+    <td><span class="Ared">3.96</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200613/index.shtml" target="_blank">200613</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200613/index.shtml" target="_blank">大东海B</a></td>
+    <td><span class="Ared">4.430</span></td>
+    <td><span class="Ared">1.142%</span></td>
+    <td><span class="Ared">0.05</span></td>
+    <td>17870手</td>
+    <td>799万</td>
+    <td><span class="Agreen">4.28</span></td>
+    <td>4.38</td>
+    <td><span class="Agreen">4.23</span></td>
+    <td><span class="Ared">4.65</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200026/index.shtml" target="_blank">200026</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200026/index.shtml" target="_blank">飞亚达Ｂ</a></td>
+    <td><span class="Ared">5.960</span></td>
+    <td><span class="Ared">0.337%</span></td>
+    <td><span class="Ared">0.02</span></td>
+    <td>785手</td>
+    <td>47万</td>
+    <td><span class="Ared">5.97</span></td>
+    <td>5.94</td>
+    <td><span class="Agreen">5.89</span></td>
+    <td><span class="Ared">5.98</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200986/index.shtml" target="_blank">200986</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200986/index.shtml" target="_blank">粤华包Ｂ</a></td>
+    <td><span class="Ared">3.180</span></td>
+    <td><span class="Ared">0.315%</span></td>
+    <td><span class="Ared">0.01</span></td>
+    <td>1187手</td>
+    <td>38万</td>
+    <td><span class="Agreen">3.12</span></td>
+    <td>3.17</td>
+    <td><span class="Agreen">3.10</span></td>
+    <td><span class="Ared">3.20</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200725/index.shtml" target="_blank">200725</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200725/index.shtml" target="_blank">京东方Ｂ</a></td>
+    <td><span class="Ared">3.820</span></td>
+    <td><span class="Ared">0.262%</span></td>
+    <td><span class="Ared">0.01</span></td>
+    <td>24759手</td>
+    <td>940万</td>
+    <td><span class="Ared">3.81</span></td>
+    <td>3.81</td>
+    <td><span class="Agreen">3.76</span></td>
+    <td><span class="Ared">3.86</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200025/index.shtml" target="_blank">200025</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200025/index.shtml" target="_blank">特  力Ｂ</a></td>
+    <td><span class="Ared">9.050</span></td>
+    <td><span class="Ared">0.221%</span></td>
+    <td><span class="Ared">0.02</span></td>
+    <td>167手</td>
+    <td>15万</td>
+    <td><span class="Agreen">9.01</span></td>
+    <td>9.03</td>
+    <td><span class="Agreen">8.90</span></td>
+    <td><span class="Ared">9.12</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200028/index.shtml" target="_blank">200028</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200028/index.shtml" target="_blank">一致Ｂ</a></td>
+    <td><span class="Ared">33.200</span></td>
+    <td><span class="Ared">0.121%</span></td>
+    <td><span class="Ared">0.04</span></td>
+    <td>410手</td>
+    <td>135万</td>
+    <td><span class="Agreen">32.90</span></td>
+    <td>33.16</td>
+    <td><span class="Agreen">32.62</span></td>
+    <td><span class="Ared">33.20</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200726/index.shtml" target="_blank">200726</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200726/index.shtml" target="_blank">鲁  泰Ｂ</a></td>
+    <td><span class="Ared">8.800</span></td>
+    <td><span class="Ared">0.114%</span></td>
+    <td><span class="Ared">0.01</span></td>
+    <td>3157手</td>
+    <td>277万</td>
+    <td><span class="Agreen">8.77</span></td>
+    <td>8.79</td>
+    <td><span class="Agreen">8.75</span></td>
+    <td><span class="Ared">8.81</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200058/index.shtml" target="_blank">200058</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200058/index.shtml" target="_blank">深赛格B</a></td>
+    <td><span class="Ared">3.420</span></td>
+    <td><span class="Ared">0.000%</span></td>
+    <td><span class="Ared">0.00</span></td>
+    <td>736手</td>
+    <td>25万</td>
+    <td><span class="Agreen">3.40</span></td>
+    <td>3.42</td>
+    <td><span class="Agreen">3.40</span></td>
+    <td><span class="Ared">3.46</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200418/index.shtml" target="_blank">200418</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200418/index.shtml" target="_blank">小天鹅Ｂ</a></td>
+    <td><span class="Ared">52.200</span></td>
+    <td><span class="Ared">0.000%</span></td>
+    <td><span class="Ared">0.00</span></td>
+    <td>1111手</td>
+    <td>580万</td>
+    <td><span class="Agreen">52.00</span></td>
+    <td>52.20</td>
+    <td><span class="Agreen">52.00</span></td>
+    <td><span class="Ared">52.93</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200539/index.shtml" target="_blank">200539</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200539/index.shtml" target="_blank">粤电力Ｂ</a></td>
+    <td><span class="Ared">2.930</span></td>
+    <td><span class="Ared">0.000%</span></td>
+    <td><span class="Ared">0.00</span></td>
+    <td>3199手</td>
+    <td>93万</td>
+    <td><span class="Ared">2.93</span></td>
+    <td>2.93</td>
+    <td><span class="Agreen">2.91</span></td>
+    <td><span class="Ared">2.93</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200706/index.shtml" target="_blank">200706</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200706/index.shtml" target="_blank">瓦轴B</a></td>
+    <td><span class="Ared">4.330</span></td>
+    <td><span class="Ared">0.000%</span></td>
+    <td><span class="Ared">0.00</span></td>
+    <td>90手</td>
+    <td>4万</td>
+    <td><span class="Agreen">4.25</span></td>
+    <td>4.33</td>
+    <td><span class="Agreen">4.25</span></td>
+    <td><span class="Ared">4.33</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200625/index.shtml" target="_blank">200625</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200625/index.shtml" target="_blank">长  安Ｂ</a></td>
+    <td><span class="Agreen">7.390</span></td>
+    <td><span class="Agreen">-0.135%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>12531手</td>
+    <td>928万</td>
+    <td><span class="Agreen">7.38</span></td>
+    <td>7.40</td>
+    <td><span class="Agreen">7.34</span></td>
+    <td><span class="Ared">7.45</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200429/index.shtml" target="_blank">200429</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200429/index.shtml" target="_blank">粤高速Ｂ</a></td>
+    <td><span class="Agreen">6.900</span></td>
+    <td><span class="Agreen">-0.145%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>3194手</td>
+    <td>221万</td>
+    <td><span class="Ared">6.93</span></td>
+    <td>6.91</td>
+    <td><span class="Agreen">6.88</span></td>
+    <td><span class="Ared">6.93</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200045/index.shtml" target="_blank">200045</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200045/index.shtml" target="_blank">深纺织Ｂ</a></td>
+    <td><span class="Agreen">5.380</span></td>
+    <td><span class="Agreen">-0.186%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>199手</td>
+    <td>11万</td>
+    <td><span class="Agreen">5.38</span></td>
+    <td>5.39</td>
+    <td><span class="Agreen">5.36</span></td>
+    <td><span class="Ared">5.50</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200019/index.shtml" target="_blank">200019</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200019/index.shtml" target="_blank">深深宝Ｂ</a></td>
+    <td><span class="Agreen">4.290</span></td>
+    <td><span class="Agreen">-0.233%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>665手</td>
+    <td>28万</td>
+    <td><span class="Agreen">4.22</span></td>
+    <td>4.30</td>
+    <td><span class="Agreen">4.21</span></td>
+    <td><span class="Ared">4.30</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200992/index.shtml" target="_blank">200992</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200992/index.shtml" target="_blank">中  鲁Ｂ</a></td>
+    <td><span class="Agreen">4.040</span></td>
+    <td><span class="Agreen">-0.247%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>1788手</td>
+    <td>72万</td>
+    <td><span class="Agreen">4.01</span></td>
+    <td>4.05</td>
+    <td><span class="Agreen">4.00</span></td>
+    <td><span class="Ared">4.06</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200596/index.shtml" target="_blank">200596</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200596/index.shtml" target="_blank">古井贡Ｂ</a></td>
+    <td><span class="Agreen">44.860</span></td>
+    <td><span class="Agreen">-0.267%</span></td>
+    <td><span class="Agreen">-0.12</span></td>
+    <td>1482手</td>
+    <td>662万</td>
+    <td><span class="Agreen">44.90</span></td>
+    <td>44.98</td>
+    <td><span class="Agreen">44.25</span></td>
+    <td><span class="Ared">44.99</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200512/index.shtml" target="_blank">200512</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200512/index.shtml" target="_blank">闽灿坤Ｂ</a></td>
+    <td><span class="Agreen">3.670</span></td>
+    <td><span class="Agreen">-0.272%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>501手</td>
+    <td>18万</td>
+    <td><span class="Agreen">3.66</span></td>
+    <td>3.68</td>
+    <td><span class="Agreen">3.58</span></td>
+    <td><span class="Ared">3.68</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200550/index.shtml" target="_blank">200550</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200550/index.shtml" target="_blank">江  铃Ｂ</a></td>
+    <td><span class="Agreen">10.290</span></td>
+    <td><span class="Agreen">-0.291%</span></td>
+    <td><span class="Agreen">-0.03</span></td>
+    <td>656手</td>
+    <td>67万</td>
+    <td><span class="Ared">10.36</span></td>
+    <td>10.32</td>
+    <td><span class="Agreen">10.19</span></td>
+    <td><span class="Ared">10.39</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200056/index.shtml" target="_blank">200056</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200056/index.shtml" target="_blank">皇庭B</a></td>
+    <td><span class="Agreen">3.370</span></td>
+    <td><span class="Agreen">-0.296%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>380手</td>
+    <td>13万</td>
+    <td><span class="Ared">3.39</span></td>
+    <td>3.38</td>
+    <td><span class="Agreen">3.33</span></td>
+    <td><span class="Ared">3.39</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200530/index.shtml" target="_blank">200530</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200530/index.shtml" target="_blank">大  冷Ｂ</a></td>
+    <td><span class="Agreen">3.190</span></td>
+    <td><span class="Agreen">-0.313%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>470手</td>
+    <td>15万</td>
+    <td><span class="Ared">3.21</span></td>
+    <td>3.20</td>
+    <td><span class="Agreen">3.18</span></td>
+    <td><span class="Ared">3.21</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200761/index.shtml" target="_blank">200761</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200761/index.shtml" target="_blank">本钢板Ｂ</a></td>
+    <td><span class="Agreen">2.790</span></td>
+    <td><span class="Agreen">-0.357%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>1420手</td>
+    <td>39万</td>
+    <td><span class="Agreen">2.78</span></td>
+    <td>2.80</td>
+    <td><span class="Agreen">2.77</span></td>
+    <td><span class="Ared">2.80</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200771/index.shtml" target="_blank">200771</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200771/index.shtml" target="_blank">杭汽轮Ｂ</a></td>
+    <td><span class="Agreen">7.000</span></td>
+    <td><span class="Agreen">-0.427%</span></td>
+    <td><span class="Agreen">-0.03</span></td>
+    <td>1907手</td>
+    <td>134万</td>
+    <td><span class="Agreen">7.00</span></td>
+    <td>7.03</td>
+    <td><span class="Agreen">6.95</span></td>
+    <td><span class="Ared">7.04</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200488/index.shtml" target="_blank">200488</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200488/index.shtml" target="_blank">晨  鸣Ｂ</a></td>
+    <td><span class="Agreen">11.410</span></td>
+    <td><span class="Agreen">-0.436%</span></td>
+    <td><span class="Agreen">-0.05</span></td>
+    <td>5106手</td>
+    <td>581万</td>
+    <td><span class="Agreen">11.40</span></td>
+    <td>11.46</td>
+    <td><span class="Agreen">11.30</span></td>
+    <td><span class="Ared">11.58</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200413/index.shtml" target="_blank">200413</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200413/index.shtml" target="_blank">东旭B</a></td>
+    <td><span class="Agreen">4.490</span></td>
+    <td><span class="Agreen">-0.443%</span></td>
+    <td><span class="Agreen">-0.02</span></td>
+    <td>1804手</td>
+    <td>81万</td>
+    <td><span class="Ared">4.56</span></td>
+    <td>4.51</td>
+    <td><span class="Agreen">4.49</span></td>
+    <td><span class="Ared">4.56</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200055/index.shtml" target="_blank">200055</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200055/index.shtml" target="_blank">方大Ｂ</a></td>
+    <td><span class="Agreen">4.370</span></td>
+    <td><span class="Agreen">-0.456%</span></td>
+    <td><span class="Agreen">-0.02</span></td>
+    <td>2964手</td>
+    <td>129万</td>
+    <td><span class="Ared">4.40</span></td>
+    <td>4.39</td>
+    <td><span class="Agreen">4.35</span></td>
+    <td><span class="Ared">4.40</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200012/index.shtml" target="_blank">200012</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200012/index.shtml" target="_blank">南  玻Ｂ</a></td>
+    <td><span class="Agreen">4.110</span></td>
+    <td><span class="Agreen">-0.484%</span></td>
+    <td><span class="Agreen">-0.02</span></td>
+    <td>5396手</td>
+    <td>221万</td>
+    <td><span class="Agreen">4.10</span></td>
+    <td>4.13</td>
+    <td><span class="Agreen">4.07</span></td>
+    <td><span class="Ared">4.16</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200553/index.shtml" target="_blank">200553</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200553/index.shtml" target="_blank">沙隆达Ｂ</a></td>
+    <td><span class="Agreen">7.990</span></td>
+    <td><span class="Agreen">-0.498%</span></td>
+    <td><span class="Agreen">-0.04</span></td>
+    <td>2821手</td>
+    <td>225万</td>
+    <td><span class="Agreen">8.02</span></td>
+    <td>8.03</td>
+    <td><span class="Agreen">7.94</span></td>
+    <td><span class="Agreen">8.02</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200020/index.shtml" target="_blank">200020</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200020/index.shtml" target="_blank">深华发Ｂ</a></td>
+    <td><span class="Agreen">5.780</span></td>
+    <td><span class="Agreen">-0.516%</span></td>
+    <td><span class="Agreen">-0.03</span></td>
+    <td>5242手</td>
+    <td>307万</td>
+    <td><span class="Agreen">5.76</span></td>
+    <td>5.81</td>
+    <td><span class="Agreen">5.75</span></td>
+    <td><span class="Ared">5.90</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200168/index.shtml" target="_blank">200168</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200168/index.shtml" target="_blank">舜喆B</a></td>
+    <td><span class="Agreen">1.910</span></td>
+    <td><span class="Agreen">-0.521%</span></td>
+    <td><span class="Agreen">-0.01</span></td>
+    <td>1242手</td>
+    <td>24万</td>
+    <td><span class="Ared">1.94</span></td>
+    <td>1.92</td>
+    <td><span class="Agreen">1.87</span></td>
+    <td><span class="Ared">1.94</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200541/index.shtml" target="_blank">200541</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200541/index.shtml" target="_blank">粤照明Ｂ</a></td>
+    <td><span class="Agreen">5.630</span></td>
+    <td><span class="Agreen">-0.530%</span></td>
+    <td><span class="Agreen">-0.03</span></td>
+    <td>2987手</td>
+    <td>167万</td>
+    <td><span class="Agreen">5.61</span></td>
+    <td>5.66</td>
+    <td><span class="Agreen">5.55</span></td>
+    <td><span class="Agreen">5.65</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200869/index.shtml" target="_blank">200869</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200869/index.shtml" target="_blank">张  裕Ｂ</a></td>
+    <td><span class="Agreen">20.490</span></td>
+    <td><span class="Agreen">-0.534%</span></td>
+    <td><span class="Agreen">-0.11</span></td>
+    <td>2989手</td>
+    <td>611万</td>
+    <td><span class="Agreen">20.52</span></td>
+    <td>20.60</td>
+    <td><span class="Agreen">20.39</span></td>
+    <td><span class="Agreen">20.59</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200011/index.shtml" target="_blank">200011</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200011/index.shtml" target="_blank">深物业B</a></td>
+    <td><span class="Agreen">7.310</span></td>
+    <td><span class="Agreen">-0.544%</span></td>
+    <td><span class="Agreen">-0.04</span></td>
+    <td>308手</td>
+    <td>23万</td>
+    <td><span class="Ared">7.36</span></td>
+    <td>7.35</td>
+    <td><span class="Agreen">7.30</span></td>
+    <td><span class="Ared">7.36</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200018/index.shtml" target="_blank">200018</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200018/index.shtml" target="_blank">神州B</a></td>
+    <td><span class="Agreen">2.970</span></td>
+    <td><span class="Agreen">-0.669%</span></td>
+    <td><span class="Agreen">-0.02</span></td>
+    <td>1469手</td>
+    <td>43万</td>
+    <td><span class="Ared">2.99</span></td>
+    <td>2.99</td>
+    <td><span class="Agreen">2.92</span></td>
+    <td><span class="Ared">2.99</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200016/index.shtml" target="_blank">200016</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200016/index.shtml" target="_blank">深康佳Ｂ</a></td>
+    <td><span class="Agreen">3.090</span></td>
+    <td><span class="Agreen">-0.962%</span></td>
+    <td><span class="Agreen">-0.03</span></td>
+    <td>2222手</td>
+    <td>69万</td>
+    <td><span class="Agreen">3.08</span></td>
+    <td>3.12</td>
+    <td><span class="Agreen">3.08</span></td>
+    <td><span class="Ared">3.12</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200054/index.shtml" target="_blank">200054</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200054/index.shtml" target="_blank">建车B</a></td>
+    <td><span class="Agreen">6.800</span></td>
+    <td><span class="Agreen">-1.019%</span></td>
+    <td><span class="Agreen">-0.07</span></td>
+    <td>296手</td>
+    <td>20万</td>
+    <td><span class="Agreen">6.73</span></td>
+    <td>6.87</td>
+    <td><span class="Agreen">6.72</span></td>
+    <td><span class="Ared">6.91</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200160/index.shtml" target="_blank">200160</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200160/index.shtml" target="_blank">东沣B</a></td>
+    <td><span class="Agreen">1.860</span></td>
+    <td><span class="Agreen">-1.064%</span></td>
+    <td><span class="Agreen">-0.02</span></td>
+    <td>1769手</td>
+    <td>33万</td>
+    <td><span class="Agreen">1.85</span></td>
+    <td>1.88</td>
+    <td><span class="Agreen">1.85</span></td>
+    <td><span class="Ared">1.89</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200053/index.shtml" target="_blank">200053</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200053/index.shtml" target="_blank">深基地Ｂ</a></td>
+    <td><span class="Agreen">22.750</span></td>
+    <td><span class="Agreen">-1.087%</span></td>
+    <td><span class="Agreen">-0.25</span></td>
+    <td>11053手</td>
+    <td>2532万</td>
+    <td><span class="Agreen">22.82</span></td>
+    <td>23.00</td>
+    <td><span class="Agreen">22.75</span></td>
+    <td><span class="Ared">23.18</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200570/index.shtml" target="_blank">200570</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200570/index.shtml" target="_blank">苏常柴Ｂ</a></td>
+    <td><span class="Agreen">3.050</span></td>
+    <td><span class="Agreen">-1.294%</span></td>
+    <td><span class="Agreen">-0.04</span></td>
+    <td>433手</td>
+    <td>13万</td>
+    <td><span class="Agreen">3.07</span></td>
+    <td>3.09</td>
+    <td><span class="Agreen">3.05</span></td>
+    <td><span class="Ared">3.09</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200030/index.shtml" target="_blank">200030</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200030/index.shtml" target="_blank">富奥B</a></td>
+    <td><span class="Agreen">5.720</span></td>
+    <td><span class="Agreen">-1.379%</span></td>
+    <td><span class="Agreen">-0.08</span></td>
+    <td>1489手</td>
+    <td>85万</td>
+    <td><span class="Agreen">5.78</span></td>
+    <td>5.80</td>
+    <td><span class="Agreen">5.70</span></td>
+    <td><span class="Agreen">5.78</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200581/index.shtml" target="_blank">200581</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200581/index.shtml" target="_blank">苏威孚Ｂ</a></td>
+    <td><span class="Agreen">17.160</span></td>
+    <td><span class="Agreen">-1.549%</span></td>
+    <td><span class="Agreen">-0.27</span></td>
+    <td>4262手</td>
+    <td>737万</td>
+    <td><span class="Ared">17.52</span></td>
+    <td>17.43</td>
+    <td><span class="Agreen">17.15</span></td>
+    <td><span class="Ared">17.52</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200152/index.shtml" target="_blank">200152</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200152/index.shtml" target="_blank">山  航Ｂ</a></td>
+    <td><span class="Agreen">14.410</span></td>
+    <td><span class="Agreen">-1.571%</span></td>
+    <td><span class="Agreen">-0.23</span></td>
+    <td>3415手</td>
+    <td>496万</td>
+    <td><span class="Agreen">14.62</span></td>
+    <td>14.64</td>
+    <td><span class="Agreen">14.40</span></td>
+    <td><span class="Ared">14.65</span></td>
+  </tr>
+  <tr>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200505/index.shtml" target="_blank">200505</a></td>
+    <td><a href="http://finance.ifeng.com/app/hq/stock/sz200505/index.shtml" target="_blank">京粮B</a></td>
+    <td><span class="Agreen">4.840</span></td>
+    <td><span class="Agreen">-2.024%</span></td>
+    <td><span class="Agreen">-0.10</span></td>
+    <td>1498手</td>
+    <td>72万</td>
+    <td><span class="Agreen">4.76</span></td>
+    <td>4.94</td>
+    <td><span class="Agreen">4.76</span></td>
+    <td><span class="Agreen">4.86</span></td>
+  </tr>
+  <tr>
+    <td colspan="11">&nbsp;当前是第1页&nbsp;</td>
+  </tr>
+</table>
+</div>
+		
+</div>
+
+	    <div class="clear"></div>
+	</div>
+	</div>
+ <div class="round"><img src="http://img.ifeng.com/tres/finance/info/round2.gif" width="950" height="5" /></div>
+
+
+
+<style>
+    .footer { width: 1000px; margin: 0 auto; }
+    .footer .footlink { color: #000; height: 28px; line-height: 28px; padding-top: 15px; border-top: 1px solid #fff; overflow: hidden; }
+    .footer .footlink a { color: #000; }
+    .footer .footlink span { padding: 0 5px; }
+    .footer .fk_l { float: left; }
+    .footer .fk_r { width: 200px; float: right; }
+    .footer .fk_r ul { overflow: hidden; }
+    .footer .fk_r ul li { height: 28px; line-height: 28px; overflow: hidden; float: left; }
+    .footer .fk_r ul .l_bg001 { background: url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0716/nav0416_14.gif) no-repeat left 9px; padding-left: 19px; }
+    .footer .fk_r ul .l_bg002 { background: url(http://y3.ifengimg.com/9db17ab793eef980/2013/0403/nav0416_17.gif) no-repeat left 9px; padding-left: 17px; margin-left: 18px; }
+    .footer .copyright { font-family: Arial; color: #666; height: 28px; line-height: 28px; text-align: center; overflow: hidden; }
+    .footer .copyright span { font-family: "宋体"; }
+</style>
+<div class="footer mt02" id="footer">
+    <div class="footlink clearfix">
+        <div class="fk_l">
+            <a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a><span>|</span><a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a><span>|</span><a href="http://biz.ifeng.com/" target="_blank">广告服务</a><span>|</span><a href="http://career.ifeng.com/" target="_blank">诚征英才</a><span>|</span><a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a><span>|</span><a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a><span>|</span><a href="http://help.ifeng.com/" target="_blank">意见反馈</a><span>|</span><a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a>
+        </div>
+        <div class="fk_r">
+            <ul class="clearfix">
+                <li class="l_bg001"><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+                <li>·<a href="http://v.ifeng.com/documentary/index.shtml" target="_blank" title="纪实">纪实</a></li>
+                <li>·<a href="http://v.ifeng.com/live/" target="_blank" title="直播">直播</a></li>
+                <li class="l_bg002"><a href="http://phtv.ifeng.com/" target="_blank" title="凤凰卫视">凤凰卫视</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright"><span>凤凰新媒体&nbsp;版权所有</span>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2013 Phoenix New Media Limited All Rights Reserved.</div>
+</div>
+<script>
+if((typeof device==="object")&&device.type!=="pc"){
+document.getElementById("footer").style.display="none";
+}
+</script>
+<script src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script>
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js"></script>
+<script type="text/javascript">
+    var vjAcc = "860010-2063990101";
+    var wrUrl = "http://ifeng.wrating.com/";
+    vjTrack(typeof getChannelInfo == 'function' ? '{"channel":"' + getChannelInfo() + '"}' : '');
+</script>
+<noscript><img src="http://ifeng.wrating.com/a.gif?a=&c=860010-2063990101" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!--[if !IE]>footer.140729<![endif]-->
+<!-- Begin comScore Tag -->
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6036116" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036116&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<script>var sta_collection_time = new Date().getTime();</script>
+<script id="sta_collection_new">
+window.analytics(encodeURIComponent(window.location.href));
+setTimeout(function() {
+            window.aptracker.collection();
+        }, 800);
+</script>
+
+</body>
+</html>
